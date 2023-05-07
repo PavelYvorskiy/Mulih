@@ -1,0 +1,19 @@
+[data-aos=title] {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+[data-aos=title].aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+[data-aos=card] {
+  opacity: 0;
+  transform: translateY(80%);
+}
+[data-aos=card].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=aos.css.map */

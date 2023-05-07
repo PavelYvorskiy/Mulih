@@ -1,0 +1,17 @@
+[data-aos="title"] {
+    opacity: 0;
+    transform: translateX(-100%);
+    &.aos-animate {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  [data-aos="card"] {
+    opacity: 0;
+    transform: translateY(80%);
+    &.aos-animate {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
