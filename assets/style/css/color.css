@@ -1,0 +1,20 @@
+:root{
+    --dark-gray: #1F2744;
+    --strong-gray:#767676;
+    --gray: #73788C;
+    --light-strong-gray:#8E8E8E;
+    --light-gray:#A6A6A6;
+    --dark-black:#0B2E29;
+    --dark-blue:#054457;
+    --green:#69B99D;
+    --shadow-button:rgba(105, 185, 157, 0.58);
+    --background-color:#F5F5F5;
+    --background-light-color:#fff;
+    --footer-menu-link:#575757;
+    --social-icon-background:#F8F9F9;
+    --super-light-grey:#D7D7D7;
+    --sub-title-box-bg:#F8F9FE;
+    --product-card-border:#DEDCDA;
+    --product-card-title:#1F2744;
+
+}

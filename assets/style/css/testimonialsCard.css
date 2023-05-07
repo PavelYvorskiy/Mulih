@@ -1,0 +1,74 @@
+.testimonials-card {
+  max-width: 376px;
+  width: 100%;
+  min-height: 360px;
+  border: 1px solid var(--product-card-border);
+  padding: 24px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonials-card__simbol {
+  width: 42px;
+  height: auto;
+}
+.testimonials-card__simbol img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.testimonials-card h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.0025em;
+  color: var(--dark-gray);
+  text-align: start;
+  margin: 16px 0;
+  font-size: 1.15em;
+}
+.testimonials-card p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: var(--dark-gray);
+  font-size: 0.8em;
+}
+
+.user-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 26px;
+}
+.user-info__img {
+  width: 48px;
+  height: 48px;
+}
+.user-info__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.user-info__description {
+  height: 100%;
+  margin-left: 14px;
+}
+.user-info__description h6 {
+  color: var(--dark-black);
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+.user-info__description p {
+  color: var(--strong-gray);
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=testimonialsCard.css.map */

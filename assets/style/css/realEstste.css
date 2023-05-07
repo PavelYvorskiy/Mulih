@@ -1,0 +1,89 @@
+.container-real-estste {
+  width: 100vw;
+  background-image: url(../../img/sectionOneImg/bernard-hermant.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-attachment: fixed;
+  padding: 0 0 0 20px;
+}
+
+.content-real-estste {
+  max-width: 1240px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+}
+
+.tabs-nav-btn {
+  padding: 12px 32px;
+  background-color: transparent;
+  color: var(--light-gray);
+}
+.tabs-nav-btn.active {
+  background-color: #fff;
+  color: var(--green);
+}
+
+.tabs-content {
+  max-width: 751px;
+  width: 100%;
+  background-color: #fff;
+  padding: 24px 32px;
+  box-shadow: 7px 9px 20px rgba(146, 106, 120, 0.16);
+  margin-bottom: 108px;
+  display: flex;
+}
+
+.tabs-content-items {
+  flex-shrink: 0;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.tabs-content-items:nth-child(2) {
+  transform: translateX(-100%);
+}
+.tabs-content-items.active {
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 1040px) {
+  .container-real-estste {
+    background-position: bottom right;
+  }
+  .content-real-estste-title {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 520px) {
+  .container-real-estste {
+    background-image: none;
+    padding: 20px;
+  }
+  .tabs-content {
+    margin-bottom: 0;
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=realEstste.css.map */

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./assets/style/css/base.css"/>
+    <link rel="stylesheet" href="./assets/style/css/adaptiveFonts.css"/>
+    <link rel="stylesheet" href="./assets/style/css/color.css"/>
+    <link rel="stylesheet" href="./assets/style/css/logo.css"/>
+    <link rel="stylesheet" href="./assets/style/css/header.css"/>
+    <link rel="stylesheet" href="./assets/style/css/navbarMenu.css"/>
+    <link rel="stylesheet" href="./assets/style/css/main.css"/>
+    <link rel="stylesheet" href="./assets/style/css/footer.css"/>
+    <link rel="stylesheet" href="./assets/style/css/realEstste.css"/>
+    <link rel="stylesheet" href="./assets/style/css/dropdownСontainer.css"/>
+    <link rel="stylesheet" href="./assets/style/css/recomendation.css"/>
+    <link rel="stylesheet" href="./assets/style/css/slideContainer.css"/>
+    <link rel="stylesheet" href="./assets/style/css/productCard.css"/>
+    <link rel="stylesheet" href="./assets/style/css/advantages.css"/>
+    <link rel="stylesheet" href="./assets/style/css/testimonials.css"/>
+    <link rel="stylesheet" href="./assets/style/css/testimonialsCard.css"/>
+    <link rel="stylesheet" href="./assets/style/css/about.css"/>
+    <title>Mulih</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a class="logo__link" href="index.html">
+                    <img class="logo__img" src="./assets/svg/logo/logo.svg" alt="">
+                    <span>Mulih</span>
+                </a>
+            </div>
+            <div class="navbar">
+                <ul class="navbar-items">
+                    <li class="navbar-item active">
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Property</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">About</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Service</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Contacts</a>
+                    </li>
+                </ul>
+                <div class="nav-bar-login-block">
+                    <button class="button-login">Sign in</button>
+                    <button class="button-login active">Login</button>
+                </div>
+            </div>
+            <div class="navbar-navigation">
+                <button class="navbar-navigation__btn"><span></span></button>
+            </div>
+            <div class="navbar-mob">
+                <ul class="navbar-mob-container">
+                    <li class="navbar-mob-item active">
+                        <a href="#" class="navbar-mob-link">Home</a>
+                    </li>
+                    <li class="navbar-mob-item">
+                        <a href="#" class="navbar-mob-link">Property</a>
+                    </li>
+                    <li class="navbar-mob-item">
+                        <a href="#" class="navbar-mob-link">About</a>
+                    </li>
+                    <li class="navbar-mob-item">
+                        <a href="#" class="navbar-mob-link">Service</a>
+                    </li>
+                    <li class="navbar-mob-item">
+                        <a href="#" class="navbar-mob-link">Contacts</a>
+                    </li>
+                </ul>
+                <div class="nav-bar-login-block nav-bar-login-block__mob">
+                    <button class="button-login button-login__mob">Sign in</button>
+                    <button class="button-login button-login__mob">Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+       <section class="section">
+          <div class="container container-real-estste">
+              <div class="content-real-estste">
+                <div class="content-title">
+                    <div class="sub-title-box">REAL ESTATE</div>
+                    <h1>Let's hunt for your dream residence</h1>
+                    <p>Explore our range of beautiful properties with the addition of separate accommodation suitable for you.</p>
+                </div>
+                <div class="tabs visibleContent">
+                    <div class="tabs-nav-block">
+                        <button class="tabs-nav-btn">Buy</button>
+                        <button class="tabs-nav-btn">Rent</button>
+                    </div>
+                    <div class="tabs-content">
+                        <div class="tabs-content-items">
+                            <div class="dropdown-container">
+                                <div class="dropdown">
+                                    <label for="">location</label>
+                                    <button class="dropdown-button">Bogor, Jawa Barat</button>
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-list__item" data-value="bogor">Bogor, Jawa Barat</li>
+                                        <li class="dropdown-list__item" data-value="ukraine">Ukraine, Kyiv</li>
+                                        <li class="dropdown-list__item" data-value="turkiye">Türkiye Istanbul</li>
+                                    </ul>
+                                    <input class="dropdown-input" type="text" name="select-category" value="">
+                                </div>
+                                <div class="dropdown">
+                                    <label for="">Type</label>
+                                    <button class="dropdown-button">Home</button>
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-list__item" data-value="home">Home</li>
+                                        <li class="dropdown-list__item" data-value="garage">Garage</li>
+                                        <li class="dropdown-list__item" data-value="pavilion">Pavilion</li>
+                                    </ul>
+                                    <input class="dropdown-input" type="text" name="select-category" value="">
+                                </div>
+                                <div class="dropdown">
+                                    <label for="">Price Range</label>
+                                    <button class="dropdown-button">$200-$350</button>
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-list__item" data-value="price1">$200-$350</li>
+                                        <li class="dropdown-list__item" data-value="price2">$350-$1000</li>
+                                        <li class="dropdown-list__item" data-value="price3">$1000-$3000</li>
+                                    </ul>
+                                    <input class="dropdown-input" type="text" name="select-category" value="">
+                                </div>
+                                <button class="tabs-btn">Search</button>
+                            </div> 
+                        </div>
+                        <div class="tabs-content-items">
+                            <div class="dropdown-container">
+                                <div class="dropdown">
+                                    <label for="">location</label>
+                                    <button class="dropdown-button">Bogor, Jawa Barat</button>
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-list__item" data-value="bogor">Bogor, Jawa Barat</li>
+                                        <li class="dropdown-list__item" data-value="ukraine">Ukraine, Kyiv</li>
+                                        <li class="dropdown-list__item" data-value="turkiye">Türkiye Istanbul</li>
+                                    </ul>
+                                    <input class="dropdown-input" type="text" name="select-category" value="">
+                                </div>
+                                <div class="dropdown">
+                                    <label for="">Type</label>
+                                    <button class="dropdown-button">Home</button>
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-list__item" data-value="home">Home</li>
+                                        <li class="dropdown-list__item" data-value="garage">Garage</li>
+                                        <li class="dropdown-list__item" data-value="pavilion">Pavilion</li>
+                                    </ul>
+                                    <input class="dropdown-input" type="text" name="select-category" value="">
+                                </div>
+                                <div class="dropdown">
+                                    <label for="">Price Range</label>
+                                    <button class="dropdown-button">$200-$350</button>
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-list__item" data-value="price1">$200-$350</li>
+                                        <li class="dropdown-list__item" data-value="price2">$350-$1000</li>
+                                        <li class="dropdown-list__item" data-value="price3">$1000-$3000</li>
+                                    </ul>
+                                    <input class="dropdown-input" type="text" name="select-category" value="">
+                                </div>
+                                <button class="tabs-btn">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>     
+          </div>
+       </section>
+       <section class="section section__white ">
+        <div class="container container-recomendation">
+            <div class="content content-recomendation">
+                <div class="content-title">
+                    <div class="sub-title-box">DISCOVER</div>
+                    <h2>Best recomendation</h2>
+                    <p>Discover our exclusive selection of the finest one-of-a-kind luxury properties architectural masterpieces.</p>
+                </div>
+                <div class="slider-content">
+                    <div class="swiper mySwiper">
+                        <div class="nav-box-slider">
+                            <div class="swiper-button-next">
+                                <span>Learn More</span>
+                                <div class="swiper-button"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                               <div class="product-card-container">
+                                   <div class="product-card__img">
+                                    <img src="./assets/img/BestRecomendation/images001.png" alt="">
+                                   </div>
+                                   <h3>Perum griya asri</h3>
+                                   <p>Bogor, Jawa Barat</p>
+                                   <div class="price-block">
+                                       <div class="price-block__item"><h3>$25000</h3></div>
+                                       <div class="price-block__item"><p><b>360m2</b> Living Area</p></div>
+                                   </div>
+                                   <a href="" class="product-card-button">Send Inquiry</a>
+                               </div>
+                          </div>
+                          <div class="swiper-slide">
+                             <div class="product-card-container">
+                                   <div class="product-card__img">
+                                    <img src="./assets/img/BestRecomendation/images002.png" alt="">
+                                   </div>
+                                   <h3>Perum kencana asri</h3>
+                                   <p>Bogor, Jawa Barat</p>
+                                   <div class="price-block">
+                                       <div class="price-block__item"><h3>$35000</h3></div>
+                                       <div class="price-block__item"><p><b>360m2</b> Living Area</p></div>
+                                   </div>
+                                   <a href="" class="product-card-button">Send Inquiry</a>
+                               </div>
+                          </div>
+                          <div class="swiper-slide">
+                             <div class="product-card-container">
+                                   <div class="product-card__img">
+                                    <img src="./assets/img/BestRecomendation/images003.png" alt="">
+                                   </div>
+                                   <h3>Perum rakjel elit</h3>
+                                   <p>Bogor, Jawa Barat</p>
+                                   <div class="price-block">
+                                       <div class="price-block__item"><h3>$40000</h3></div>
+                                       <div class="price-block__item"><p><b>360m2</b> Living Area</p></div>
+                                   </div>
+                                   <a href="" class="product-card-button">Send Inquiry</a>
+                               </div>
+                          </div>
+                          <div class="swiper-slide">
+                             <div class="product-card-container">
+                                   <div class="product-card__img">
+                                    <img src="./assets/img/BestRecomendation/images001.png" alt="">
+                                   </div>
+                                   <h3>Perum griya asri</h3>
+                                   <p>Bogor, Jawa Barat</p>
+                                   <div class="price-block">
+                                       <div class="price-block__item"><h3>$25000</h3></div>
+                                       <div class="price-block__item"><p><b>360m2</b> Living Area</p></div>
+                                   </div>
+                                   <a href="" class="product-card-button">Send Inquiry</a>
+                               </div>
+                          </div>
+                          <div class="swiper-slide">
+                             <div class="product-card-container">
+                                   <div class="product-card__img">
+                                    <img src="./assets/img/BestRecomendation/images003.png" alt="">
+                                   </div>
+                                   <h3>Perum rakjel elit</h3>
+                                   <p>Bogor, Jawa Barat</p>
+                                   <div class="price-block">
+                                       <div class="price-block__item"><h3>$40000</h3></div>
+                                       <div class="price-block__item"><p><b>360m2</b> Living Area</p></div>
+                                   </div>
+                                   <a href="" class="product-card-button">Send Inquiry</a>
+                               </div>
+                          </div>
+                          <div class="swiper-slide">
+                             <div class="product-card-container">
+                                   <div class="product-card__img">
+                                    <img src="./assets/img/BestRecomendation/images002.png" alt="">
+                                   </div>
+                                   <h3>Perum kencana asri</h3>
+                                   <p>Bogor, Jawa Barat</p>
+                                   <div class="price-block">
+                                       <div class="price-block__item"><h3>$35000</h3></div>
+                                       <div class="price-block__item"><p><b>360m2</b> Living Area</p></div>
+                                   </div>
+                                   <a href="" class="product-card-button">Send Inquiry</a>
+                               </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+       </section>
+       <section class="section">
+        <div class="container container-advantages">
+            <div class="content content-advantages">
+                <div class="content-title">
+                    <div class="sub-title-box">OUR ADVANTE</div>
+                    <h2>Giving you peace <br/> of mind</h2>
+                </div>
+                <div class="advantages-block">
+                    <div class="advantages-card">
+                        <div class="advantages-card__img">
+                            <img src="./assets/svg/icons/Heart.svg" alt="">
+                        </div>
+                        <h4>Comfortable</h4>
+                        <p>Enjoy lifestyle amenities designed to provide every homeowners modern comfort, a stone's throw away from schools, churches, and hospitals.</p>
+                    </div>
+                    <div class="advantages-card">
+                        <div class="advantages-card__img">
+                            <img src="./assets/svg/icons/ShieldDone.svg" alt="">
+                        </div>
+                        <h4>Extra security</h4>
+                        <p>You can connect with potential tenants without having to share your phone number. We also require all users to register to validate their legitimacy.</p>
+                    </div>
+                    <div class="advantages-card">
+                        <div class="advantages-card__img">
+                            <img src="./assets/svg/icons/Star.svg" alt="">
+                        </div>
+                        <h4>Luxury</h4>
+                        <p>Find out how we provide the highest standard of professional property management to give you all the benefits of property.</p>
+                    </div>
+                    <div class="advantages-card">
+                        <div class="advantages-card__img">
+                            <img src="./assets/svg/icons/TicketStar.svg" alt="">
+                        </div>
+                        <h4>Best price</h4>
+                        <p>Not sure what you should be charging for your property? Let us do the numbers for you—contact us today for a free rental appraisal on your home.</p>
+                    </div>
+                    <div class="advantages-card">
+                        <div class="advantages-card__img">
+                            <img src="./assets/svg/icons/Location.svg" alt="">
+                        </div>
+                        <h4>Strategic location</h4>
+                        <p>located in the city center close to the shopping center. Very good for areas surrounded by international education centers, start-up office centers.</p>
+                    </div>
+                    <div class="advantages-card">
+                        <div class="advantages-card__img">
+                            <img src="./assets/svg/icons/Graph.svg" alt="">
+                        </div>
+                        <h4>Efficient</h4>
+                        <p>Schedule visits to multiple properties at once in one day without having to call them one by one. Check everything and find the best properties for rent</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+       <section class="section section__white">
+            <div class="container container-about">
+                <div class="content content-about">
+                    <div class="about-block">
+                        <div class="about-block__item">
+                            <div class="about-block-images">
+                                <div class="rating-block">
+                                    <div class="rating-content">
+                                        <h2>4.8</h2>
+                                        <div class="star-box">
+                                            <img src="./assets/svg/toolsIcons/star.svg" alt="">
+                                            <img src="./assets/svg/toolsIcons/star.svg" alt="">
+                                            <img src="./assets/svg/toolsIcons/star.svg" alt="">
+                                            <img src="./assets/svg/toolsIcons/star.svg" alt="">
+                                            <img src="./assets/svg/toolsIcons/star.svg" alt="">
+                                        </div>
+                                        <p>Trusted on</p>
+                                        <span>500+ Reviews</span>
+                                    </div>
+                                </div>
+                                <div class="offer-content">
+                                    <div class="offer-content__items">
+                                        <h2>250+</h2>
+                                        <p>Property <br> Sale</p>
+                                    </div>
+                                    <div class="offer-content__items">
+                                        <h2>550+</h2>
+                                        <p>Apartmen <br> Rent</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-block__item">
+                            <div class="content-title">
+                                <div class="sub-title-box">ABOUT US</div>
+                                <h2>How much is your property worth now?</h2>
+                                 <p>We have built our reputation as true local area experts. We have gained more knowledge about buyer interests, our neighborhood and the market than any other brand because we live locally and work for local people.</p>
+                                <button class="about-btn">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+       <section class="section section__white">
+            <div class="container container-testimonials">
+                <div class="content content-testimonials">
+                    <div class="content-title">
+                        <div class="sub-title-box">DCUSTOMER TESTIMONIAL</div>
+                        <h2>Peopel say about us?</h2>
+                    </div>
+                    <div class="slider-content">
+                        <div class="swiper mySwiper">
+                            <div class="nav-box-slider">
+                                <div class="swiper-button-next">
+                                    <span>Learn More</span>
+                                    <div class="swiper-button"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card__simbol">
+                                        <img src="./assets/svg/toolsIcons/simbol.svg" alt="">
+                                    </div>
+                                    <h5>It proved to be exactly the kind of home we wanted.</h5>
+                                    <p>We wish to express our thanks for your hard work in finding us a temporary home, which proved to be exactly what we wanted.</p>
+                                     <div class="user-info">
+                                        <div class="user-info__img">
+                                            <img src="./assets/img/staffUsers/JaydonAminoff.png" alt="">
+                                        </div>
+                                        <div class="user-info__description">
+                                            <h6>Jaydon Aminoff</h6>
+                                            <p>UX Designer</p>
+                                        </div>
+                                     </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                  <div class="testimonials-card">
+                                    <div class="testimonials-card__simbol">
+                                        <img src="./assets/svg/toolsIcons/simbol.svg" alt="">
+                                    </div>
+                                    <h5>Nobody knows Portland and the peninsula better than David.</h5>
+                                    <p>My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland. </p>
+                                     <div class="user-info">
+                                        <div class="user-info__img">
+                                            <img src="./assets/img/staffUsers/AlfredoDonin.png" alt="">
+                                        </div>
+                                        <div class="user-info__description">
+                                            <h6>Alfredo Donin</h6>
+                                            <p>UI Designer</p>
+                                        </div>
+                                     </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                   <div class="testimonials-card">
+                                    <div class="testimonials-card__simbol">
+                                        <img src="./assets/svg/toolsIcons/simbol.svg" alt="">
+                                    </div>
+                                    <h5>He keeps his client’s best interests in sharp focus</h5>
+                                    <p>After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need. Since then, I’ve bought two properties and sold one.</p>
+                                     <div class="user-info">
+                                        <div class="user-info__img">
+                                            <img src="./assets/img/staffUsers/MakennaKorsgaard.png" alt="">
+                                        </div>
+                                        <div class="user-info__description">
+                                            <h6>Makenna Korsgaard</h6>
+                                            <p>UX Researcher</p>
+                                        </div>
+                                     </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-card__simbol">
+                                        <img src="./assets/svg/toolsIcons/simbol.svg" alt="">
+                                    </div>
+                                    <h5>It proved to be exactly the kind of home we wanted.</h5>
+                                    <p>We wish to express our thanks for your hard work in finding us a temporary home, which proved to be exactly what we wanted.</p>
+                                     <div class="user-info">
+                                        <div class="user-info__img">
+                                            <img src="./assets/img/staffUsers/JaydonAminoff.png" alt="">
+                                        </div>
+                                        <div class="user-info__description">
+                                            <h6>Jaydon Aminoff</h6>
+                                            <p>UX Designer</p>
+                                        </div>
+                                     </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                  <div class="testimonials-card">
+                                    <div class="testimonials-card__simbol">
+                                        <img src="./assets/svg/toolsIcons/simbol.svg" alt="">
+                                    </div>
+                                    <h5>Nobody knows Portland and the peninsula better than David.</h5>
+                                    <p>My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland. </p>
+                                     <div class="user-info">
+                                        <div class="user-info__img">
+                                            <img src="./assets/img/staffUsers/AlfredoDonin.png" alt="">
+                                        </div>
+                                        <div class="user-info__description">
+                                            <h6>Alfredo Donin</h6>
+                                            <p>UI Designer</p>
+                                        </div>
+                                     </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                   <div class="testimonials-card">
+                                    <div class="testimonials-card__simbol">
+                                        <img src="./assets/svg/toolsIcons/simbol.svg" alt="">
+                                    </div>
+                                    <h5>He keeps his client’s best interests in sharp focus</h5>
+                                    <p>After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need. Since then, I’ve bought two properties and sold one.</p>
+                                     <div class="user-info">
+                                        <div class="user-info__img">
+                                            <img src="./assets/img/staffUsers/MakennaKorsgaard.png" alt="">
+                                        </div>
+                                        <div class="user-info__description">
+                                            <h6>Makenna Korsgaard</h6>
+                                            <p>UX Researcher</p>
+                                        </div>
+                                     </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-container__item">
+                <div class="footer-form-content-block">
+                    <div class="logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__img" src="./assets/svg/logo/logo.svg" alt="">
+                            <span>Mulih</span>
+                        </a>
+                    </div>
+                    <div class="footer-form-content-block__description">
+                        <p>We have built our reputation as true local area experts.</p>
+                    </div>
+                    <div class="footer-form-content-block__title">
+                        <h6>Newsletter</h6>
+                    </div>
+                    <form action="" class="footer-form">
+                        <input type="email" placeholder="Input your email">
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-container__item">
+                <div class="footer-menu-conteny-block">
+                    <div class="footer-menu-conteny-block__item">
+                        <div class="footer-menu-conteny-block__title">
+                            <h6>Service</h6>
+                        </div>
+                        <ul>
+                            <li><a href="" class="footer-menu-link">About us</a></li>
+                            <li><a href="" class="footer-menu-link">Careers</a></li>
+                            <li><a href="" class="footer-menu-link">Terms & Conditions</a></li>
+                            <li><a href="" class="footer-menu-link">Privacy & Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu-conteny-block__item">
+                        <div class="footer-menu-conteny-block__title">
+                            <h6>Community</h6>
+                        </div>
+                        <ul>
+                            <li><a href="" class="footer-menu-link">Find agents</a></li>
+                            <li><a href="" class="footer-menu-link">Lifestyle</a></li>
+                            <li><a href="" class="footer-menu-link">Legal notic</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu-conteny-block__item">
+                        <div class="footer-menu-conteny-block__title">
+                            <h6>Follow us on</h6>
+                        </div>
+                        <div class="social-icon-block">
+                            <a href="" class="social-icon-block__item">
+                                <img src="./assets/svg/socialIcons/Instagram.svg" alt="">
+                            </a>
+                            <a href="" class="social-icon-block__item">
+                                <img src="./assets/svg/socialIcons/Youtube.svg" alt="">
+                            </a>
+                            <a href="" class="social-icon-block__item">
+                                <img src="./assets/svg/socialIcons/facebook.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/script/swiper.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

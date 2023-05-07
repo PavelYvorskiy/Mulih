@@ -1,0 +1,78 @@
+@media (max-width: 767px) {
+  h1 {
+    font-size: calc(32px + 54.4 * ((100vw - 320px) / 1440));
+  }
+}
+@media (min-width: 767px) {
+  h1 {
+    font-size: calc(32px + 32 * (100vw / 1440));
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: calc(24px + 40.8 * ((100vw - 320px) / 1440));
+  }
+}
+@media (min-width: 767px) {
+  h2 {
+    font-size: calc(24px + 24 * (100vw / 1440));
+  }
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: calc(16px + 13.6 * ((100vw - 320px) / 1440));
+  }
+}
+@media (min-width: 767px) {
+  h3 {
+    font-size: calc(16px + 8 * (100vw / 1440));
+  }
+}
+
+@media (max-width: 767px) {
+  h4 {
+    font-size: calc(14px + 23.8 * ((100vw - 320px) / 1440));
+  }
+}
+@media (min-width: 767px) {
+  h4 {
+    font-size: calc(14px + 14 * (100vw / 1440));
+  }
+}
+
+@media (max-width: 767px) {
+  h5 {
+    font-size: calc(14px + 6.8 * ((100vw - 320px) / 1440));
+  }
+}
+@media (min-width: 767px) {
+  h5 {
+    font-size: calc(14px + 4 * (100vw / 1440));
+  }
+}
+
+@media (max-width: 767px) {
+  h6 {
+    font-size: calc(14px + 3.4 * ((100vw - 320px) / 1440));
+  }
+}
+@media (min-width: 767px) {
+  h6 {
+    font-size: calc(14px + 2 * (100vw / 1440));
+  }
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: calc(12px + 6.8 * ((100vw - 320px) / 1440));
+  }
+}
+@media (min-width: 767px) {
+  p {
+    font-size: calc(12px + 4 * (100vw / 1440));
+  }
+}
+
+/*# sourceMappingURL=adaptiveFonts.css.map */
